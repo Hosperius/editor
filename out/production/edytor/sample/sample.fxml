@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+  <columnConstraints>
+    <ColumnConstraints hgrow="ALWAYS" maxWidth="1191.0" minWidth="10.0" prefWidth="1185.0" />
+      <ColumnConstraints maxWidth="350.0" minWidth="0.0" prefWidth="20.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="77.0" minHeight="0.0" prefHeight="20.0" vgrow="ALWAYS" />
+    <RowConstraints maxHeight="866.0" minHeight="10.0" prefHeight="860.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="127.0" minHeight="0.0" prefHeight="20.0" vgrow="ALWAYS" />
+  </rowConstraints>
+   <children>
+      <TextField prefHeight="910.0" prefWidth="1181.0" GridPane.halignment="LEFT" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="TOP" GridPane.vgrow="ALWAYS" />
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="File byczq oj file">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit byczu">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help ziomeczku">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <ScrollBar GridPane.rowIndex="2" />
+      <ScrollBar orientation="VERTICAL" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+   </children>
+</GridPane>
